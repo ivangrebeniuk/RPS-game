@@ -1,9 +1,9 @@
 version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
 options: "cb68d96d315ee2a772ab60550127a137"
-build_time: [1629918992, 847549000]
+build_time: [1630078706, 186496000]
 inputs:
-  "/Users/ivangrebeniuk/XcodeProjects/RPS/RPS/ViewController.swift": [1629917981, 27462522]
+  "/Users/ivangrebeniuk/XcodeProjects/RPS/RPS/ViewController.swift": [1630078694, 633668543]
   "/Users/ivangrebeniuk/XcodeProjects/RPS/RPS/AppDelegate.swift": [1629917981, 19903531]
-  "/Users/ivangrebeniuk/XcodeProjects/RPS/RPS/GameState.swift": [9223372036, 854775807]
-  "/Users/ivangrebeniuk/XcodeProjects/RPS/RPS/Sign.swift": [1629918992, 611077258]
+  "/Users/ivangrebeniuk/XcodeProjects/RPS/RPS/GameState.swift": [1630002913, 916993836]
+  "/Users/ivangrebeniuk/XcodeProjects/RPS/RPS/Sign.swift": [1630002913, 940968711]
   "/Users/ivangrebeniuk/XcodeProjects/RPS/RPS/SceneDelegate.swift": [1629917981, 25539421]
