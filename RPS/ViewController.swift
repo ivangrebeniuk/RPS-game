@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var currentState = GameState.start
 
     @IBOutlet weak var appSignLabel: UILabel!
     @IBOutlet weak var gameStatusLabel: UILabel!
@@ -18,6 +20,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateGameState()
         // Do any additional setup after loading the view.
     }
     
@@ -32,8 +35,30 @@ class ViewController: UIViewController {
     }
     
     @IBAction func playAgainButtonTapped(_ sender: UIButton) {
+        updateGameState()
     }
     
-
+    func updateGameState() {
+        switch currentState {
+        case .start:
+            self.view.backgroundColor = .cyan
+            
+            gameStatusLabel.text = "Rock, Paper, Scissors?"
+            appSignLabel.text = "🤖"
+            playAgainButton.isHidden = true
+            
+            rockSignButton.isEnabled = true
+            rockSignButton.isHidden = false
+            
+            paperSignButton.isEnabled = true
+            paperSignButton.isHidden = false
+            
+            scissorsSignButton.isEnabled = true
+            scissorsSignButton.isHidden = false
+            
+        default:
+            print("hello")
+        }
+    }
 }
 
