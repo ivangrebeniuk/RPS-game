@@ -25,7 +25,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paper, Rock, Scissors?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NUs-d4-XsE">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rock, Paper, Scissors?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NUs-d4-XsE">
                                         <rect key="frame" x="53" y="124" width="239" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <nil key="textColor"/>
@@ -38,16 +38,25 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="75" height="96"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                 <state key="normal" title="👊"/>
+                                                <connections>
+                                                    <action selector="rockButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WEC-5J-sQE"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uWx-Ff-jM9">
                                                 <rect key="frame" x="135" y="0.0" width="75" height="96"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                 <state key="normal" title="✋"/>
+                                                <connections>
+                                                    <action selector="paperButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Zl-nX-yrc"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWC-58-bcR">
                                                 <rect key="frame" x="270" y="0.0" width="75" height="96"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                 <state key="normal" title="✌️"/>
+                                                <connections>
+                                                    <action selector="scissorsButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cHI-kr-2Np"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -55,6 +64,9 @@
                                         <rect key="frame" x="116" y="330" width="113" height="42"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Play Again"/>
+                                        <connections>
+                                            <action selector="playAgainButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A6S-Rn-lnW"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -66,6 +78,14 @@
                             <constraint firstItem="mXI-RM-gY0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G3W-X1-t5a"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="appSignLabel" destination="gJd-of-E6b" id="AgZ-Uw-QN9"/>
+                        <outlet property="gameStatusLabel" destination="NUs-d4-XsE" id="VxM-l0-pA3"/>
+                        <outlet property="paperSignButton" destination="uWx-Ff-jM9" id="Or2-Ff-FW6"/>
+                        <outlet property="playAgainButton" destination="dGp-cN-rDp" id="JtQ-6t-Ggu"/>
+                        <outlet property="rockSignButton" destination="5Xd-5O-B5r" id="wlZ-HR-cjQ"/>
+                        <outlet property="scissorsSignButton" destination="TWC-58-bcR" id="cAq-kW-4zI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

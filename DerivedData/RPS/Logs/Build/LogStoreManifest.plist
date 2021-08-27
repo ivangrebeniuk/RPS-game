@@ -5,6 +5,211 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>3C8CB30B-C176-440B-A044-E048CB641FEE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3C8CB30B-C176-440B-A044-E048CB641FEE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>RPS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RPS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build RPS</string>
+			<key>timeStartedRecording</key>
+			<real>651779990.51710403</real>
+			<key>timeStoppedRecording</key>
+			<real>651779992.77816498</real>
+			<key>title</key>
+			<string>Build RPS</string>
+			<key>uniqueIdentifier</key>
+			<string>3C8CB30B-C176-440B-A044-E048CB641FEE</string>
+		</dict>
+		<key>42252B55-8DC3-4D03-961A-4C165D44258F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>42252B55-8DC3-4D03-961A-4C165D44258F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>RPS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RPS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build RPS</string>
+			<key>timeStartedRecording</key>
+			<real>651780097.15517294</real>
+			<key>timeStoppedRecording</key>
+			<real>651780099.12483394</real>
+			<key>title</key>
+			<string>Build RPS</string>
+			<key>uniqueIdentifier</key>
+			<string>42252B55-8DC3-4D03-961A-4C165D44258F</string>
+		</dict>
+		<key>7B2CF549-244F-4881-8AB1-0A2C0F06CE5B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7B2CF549-244F-4881-8AB1-0A2C0F06CE5B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>RPS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RPS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build RPS</string>
+			<key>timeStartedRecording</key>
+			<real>651779758.72321606</real>
+			<key>timeStoppedRecording</key>
+			<real>651779761.88231599</real>
+			<key>title</key>
+			<string>Build RPS</string>
+			<key>uniqueIdentifier</key>
+			<string>7B2CF549-244F-4881-8AB1-0A2C0F06CE5B</string>
+		</dict>
+		<key>8F2F1BEE-911D-4D09-928D-1D6C54D4B060</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8F2F1BEE-911D-4D09-928D-1D6C54D4B060.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>RPS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RPS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build RPS</string>
+			<key>timeStartedRecording</key>
+			<real>651780122.93513894</real>
+			<key>timeStoppedRecording</key>
+			<real>651780123.91273701</real>
+			<key>title</key>
+			<string>Build RPS</string>
+			<key>uniqueIdentifier</key>
+			<string>8F2F1BEE-911D-4D09-928D-1D6C54D4B060</string>
+		</dict>
+		<key>EBBF4DED-0093-45F6-8D6C-3A9C848DEBC9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EBBF4DED-0093-45F6-8D6C-3A9C848DEBC9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>RPS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RPS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build RPS</string>
+			<key>timeStartedRecording</key>
+			<real>651779856.17429304</real>
+			<key>timeStoppedRecording</key>
+			<real>651779856.98302603</real>
+			<key>title</key>
+			<string>Build RPS</string>
+			<key>uniqueIdentifier</key>
+			<string>EBBF4DED-0093-45F6-8D6C-3A9C848DEBC9</string>
+		</dict>
+		<key>F96B3EB9-2A51-4260-A25E-5792FCDBA3CA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F96B3EB9-2A51-4260-A25E-5792FCDBA3CA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>RPS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RPS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build RPS</string>
+			<key>timeStartedRecording</key>
+			<real>651779928.83116698</real>
+			<key>timeStoppedRecording</key>
+			<real>651779929.31608605</real>
+			<key>title</key>
+			<string>Build RPS</string>
+			<key>uniqueIdentifier</key>
+			<string>F96B3EB9-2A51-4260-A25E-5792FCDBA3CA</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
